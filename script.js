@@ -8,7 +8,7 @@ document.getElementById('send').addEventListener('click',()=>{
   const label=size.options[size.selectedIndex].text.split(' –')[0];
   const note=document.getElementById('msg').value.trim();
   const text=`Hello Mr Rans, I'm ${name}. I'd like to order ${q} x ${label} of Tasty Shito (Total GH₵ ${total.textContent}).${note?' Note: '+note:''}`;
-  window.open('https://wa.me/233595933599?text='+encodeURIComponent(text),'_blank');
+  window.open('https://wa.me/233553623954?text='+encodeURIComponent(text),'_blank');
 });
 
 document.getElementById('year').textContent=new Date().getFullYear();
