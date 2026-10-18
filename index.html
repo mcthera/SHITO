@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="stylesheet" href="styles.css">
+<title>Mr Rans Tasty Shito</title>
+</head>
+<body>
+<header>
+  <div class="logo">Mr Rans</div>
+  <nav>
+    <a href="#about">About</a><a href="#order">Order</a><a href="#contact">Contact</a>
+    <button id="theme" aria-label="Toggle theme">🌙</button>
+  </nav>
+</header>
+
+<div class="hero">
+  <h1>Mr Rans</h1>
+  <h2>TASTY SHITO</h2>
+  <p>Homemade Ghanaian shito made with onion, ginger, shrimps, herring, chilli pepper and natural spices. 🌶️🔥</p>
+  <a class="btn" href="#order">Order Now</a>
+  <a class="btn alt" href="tel:0595933599">📞 Call Us</a>
+</div>
+
+<section id="about">
+  <h3>What's Inside</h3>
+  <div class="grid">
+    <div class="card"><div class="emoji">🧅</div>Onion</div>
+    <div class="card"><div class="emoji">🫚</div>Ginger</div>
+    <div class="card"><div class="emoji">🦐</div>Shrimps</div>
+    <div class="card"><div class="emoji">🐟</div>Herring</div>
+    <div class="card"><div class="emoji">🌶️</div>Chilli Pepper</div>
+    <div class="card"><div class="emoji">🌿</div>Natural Spices</div>
+  </div>
+  <div class="note"><strong>Direction for use:</strong> Avoid dipping a wet spoon. Allow oil on the sauce every time to preserve it. Keep in a cool, dry place.</div>
+</section>
+
+<section id="order">
+  <h3>Place an Order</h3>
+  <div class="order">
+    <label for="name">Your Name</label>
+    <input id="name" placeholder="e.g. Kwame">
+    <label for="size">Jar Size</label>
+    <select id="size">
+      <option value="20">Small jar – GH₵ 20</option>
+      <option value="40">Medium jar – GH₵ 40</option>
+      <option value="70">Large jar – GH₵ 70</option>
+    </select>
+    <label for="qty">Quantity</label>
+    <input id="qty" type="number" min="1" value="1">
+    <label for="msg">Note (optional)</label>
+    <textarea id="msg" rows="2" placeholder="Extra pepper, delivery location..."></textarea>
+    <div class="total">Total: GH₵ <span id="total">20</span></div>
+    <button class="btn" id="send" style="margin-top:1rem;width:100%">Order on WhatsApp</button>
+  </div>
+  <p style="text-align:center;color:var(--muted);margin-top:.6rem;font-size:.85rem">Prices are examples. Edit them in the code to match the real ones.</p>
+</section>
+
+<section id="contact" class="contact">
+  <h3>Contact & Location</h3>
+  <p>📍 <strong>IPT-Container</strong></p>
+  <p><a href="tel:0595933599">0595933599</a></p>
+  <p><a href="tel:0553623954">0553623954</a></p>
+  <p style="margin-top:.8rem;color:var(--muted)">Just send a direct message and he will serve you the best! ✅</p>
+</section>
+
+<footer>🇬🇭 Proudly Ghana • © <span id="year"></span> Mr Rans Tasty Shito</footer>
+<script src="script.js"></script>
+</body>
+</html>
